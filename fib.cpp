@@ -22,7 +22,7 @@ int fib(int a) {
 
 int main() {
 
-    cout << "Which number would you like to find in the fibonacci sequence: ";
+    cout << "Which 'n'th number would you like to find in the fibonacci sequence: ";
     int x;
     cin >> x;
 
