@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int fib(int a) {
+unsigned long long int fib(unsigned long long int a) {
 
     if (a < 3) return 1;
     
@@ -12,7 +12,7 @@ int fib(int a) {
 int main() {
 
     cout << "Which 'n'th number would you like to find in the fibonacci sequence: ";
-    int x;
+    unsigned long long int x;
     cin >> x;
 
     cout << "The number in position " << x << " in the fibonacci sequence is " << fib(x) << endl;
