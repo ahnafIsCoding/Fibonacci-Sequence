@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int fib(int a) {
+unsigned long long int fib(int a) {
 
     if (a > 0 && a < 3) return 1;
 
